@@ -6,6 +6,25 @@ public class Anime {
     private int episodios;
     private String genero;
 
+    private String sexo;
+
+    public Anime(String nome, String tipo, int episodios, String genero){
+        this();
+        this.nome = nome;
+        this.tipo = tipo;
+        this.episodios = episodios;
+        this.genero = genero;
+
+    }
+
+    public Anime(String nome, String tipo, int episodios, String genero,String sexo){
+        this(nome, tipo, episodios, genero);
+        this.sexo = sexo;
+    }
+    public Anime(){
+        System.out.println("Dentro do construtor vazio");
+    }
+
     public void init(String nome, String tipo, int episodios ){
         this.nome = nome;
         this.tipo = tipo;
@@ -22,6 +41,7 @@ public class Anime {
         System.out.println((this.tipo));
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.sexo);
 
     }
 
@@ -48,5 +68,12 @@ public class Anime {
     }
     public String getGenero(){
         return genero;
+    }
+
+    public void setSexo(String sexo){
+        this.sexo = sexo;
+    }
+    public String getSexo(){
+        return sexo;
     }
 }
