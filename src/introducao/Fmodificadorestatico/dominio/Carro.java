@@ -5,6 +5,12 @@ public class Carro {
     private int velocidadeMaxima;
     private int velocidadeLimite = 250;
 
+    public Carro(String nome, int velocidadeMaxima, int velocidadeLimite) {
+        this.nome = nome;
+        this.velocidadeMaxima = velocidadeMaxima;
+        this.velocidadeLimite = velocidadeLimite;
+    }
+
     public void imprimi(){
         System.out.println("--------------");
         System.out.println("Nome"+this.nome);
