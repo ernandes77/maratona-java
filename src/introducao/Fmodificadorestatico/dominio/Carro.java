@@ -3,12 +3,12 @@ package introducao.Fmodificadorestatico.dominio;
 public class Carro {
     private String nome;
     private int velocidadeMaxima;
-    private int velocidadeLimite = 250;
+    private static int velocidadeLimite = 250;
 
-    public Carro(String nome, int velocidadeMaxima, int velocidadeLimite) {
+    public Carro(String nome, int velocidadeMaxima) {
         this.nome = nome;
         this.velocidadeMaxima = velocidadeMaxima;
-        this.velocidadeLimite = velocidadeLimite;
+
     }
 
     public void imprimi(){
