@@ -13,6 +13,14 @@ public class Jogador {
     }
     public Jogador(String nome) {
         this.nome = nome;
+
+    }
+    public Time getTime() {
+        return time;
+    }
+
+    public void setTime(Time time) {
+        this.time = time;
     }
 
     public String getNome() {
@@ -22,11 +30,7 @@ public class Jogador {
         this.nome = nome;
     }
 
-    public Time getTime() {
-        return time;
-    }
 
-    public void setTime(Time time) {
-        this.time = time;
+    public void setTime(introducao.Gassociacao.dominio.Time time) {
     }
 }
