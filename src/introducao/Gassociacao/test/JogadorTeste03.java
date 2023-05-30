@@ -6,7 +6,7 @@ import introducao.Gassociacao.dominio.Time;
 import java.sql.SQLOutput;
 
 public class JogadorTeste03 {
-    //associaçao bidimensional 
+    //associaçao bidimensional
     public static void main(String[] args) {
         Jogador jogador = new Jogador("cafu");
         Time time = new Time("Brasil");
