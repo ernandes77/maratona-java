@@ -1,17 +1,19 @@
 package introducao.Gassociacao.dominio;
 
 public class Local {
-    private String local;
+    private String endereco;
 
-    public Local(String local) {
-        this.local = local;
+    public Local(String endereco) {
+        this.endereco = endereco;
     }
 
-    public String getLocal() {
-        return local;
+    public String getEndereco() {
+        return endereco;
     }
 
-    public void setLocal(String local) {
-        this.local = local;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 }
+
+
