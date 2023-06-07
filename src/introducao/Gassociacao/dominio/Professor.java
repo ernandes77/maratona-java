@@ -25,7 +25,8 @@ public class Professor {
         System.out.println("professor "+this.nome);
         if(seminarios ==null)return;
         System.out.println("----------Seminarios-------");
-        System.out.println("Seminarios "+this.seminarios.getSeminario());
+      //concerta erro getSeminario
+         System.out.println("Seminarios "+this.getSeminarios());
         System.out.println(seminarios);
     }
 

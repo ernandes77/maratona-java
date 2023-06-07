@@ -7,8 +7,17 @@ public class Pessoa {
     private Endereco endereco;
 
     public void imprimi(){
-        System.out.println(this.nome);
-        System.out.println(this.cpf);
+        System.out.println("Nome "+this.nome);
+        System.out.println("Cpf "+this.cpf);
+        System.out.println("Rua "+this.endereco.getRua()+" "+"Cep "+this.endereco.getCep());
+    }
+
+    public Endereco getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 
     public String getNome() {
