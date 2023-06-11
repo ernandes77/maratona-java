@@ -20,7 +20,7 @@ public class Teste01 {
         funcionario.setNome("Ana");
         funcionario.setCpf("65498732-32");
         funcionario.setEndereco(endereco);
-
+        funcionario.setSalario(2000);
         pessoa.imprimi();
         System.out.println("-------------");
         funcionario.imprimi();
