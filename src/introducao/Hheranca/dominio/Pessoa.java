@@ -1,10 +1,10 @@
 package introducao.Hheranca.dominio;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
+    protected String nome;
+    protected String cpf;
 
-    private Endereco endereco;
+    protected Endereco endereco;
 
     public void imprimi(){
         System.out.println("Nome "+this.nome);
