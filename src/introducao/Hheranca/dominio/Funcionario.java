@@ -4,6 +4,10 @@ public class Funcionario extends Pessoa {
 
 
     private double salario;
+
+    public Funcionario(String nome){
+        super(nome);//
+    }
     public void imprimi(){
         super.imprimi();//super.imprimi e mesma coisa de sobrecarga de metodo ela importa o objeto mesma
         //coisa de this.Pessoa importa direto do objeto
