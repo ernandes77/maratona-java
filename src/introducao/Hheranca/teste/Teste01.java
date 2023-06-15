@@ -11,15 +11,15 @@ public class Teste01 {
         endereco.setRua("laranjeiras");
         endereco.setCep("7321654");
 
-        Pessoa pessoa = new Pessoa();
-        pessoa.setNome("Ernandes");
+        Pessoa pessoa = new Pessoa("Ernandes");
+
         pessoa.setCpf("321654987-32");
         pessoa.setEndereco(endereco);
 
         pessoa.imprimi();
 
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("Ana");
+        Funcionario funcionario = new Funcionario("Ana");
+
         funcionario.setCpf("65498732-32");
         funcionario.setEndereco(endereco);
         funcionario.setSalario(2000);

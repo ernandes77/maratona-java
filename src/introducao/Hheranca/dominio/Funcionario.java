@@ -5,8 +5,20 @@ public class Funcionario extends Pessoa {
 
     private double salario;
 
-    public Funcionario(String nome){
-        super(nome);//
+    static{
+        System.out.println("Dentro do bloco statico de Funcionario");
+    }
+    {
+        System.out.println("Dentro do bloco de inicializacao Funcionario 1");
+    }
+    {
+        System.out.println("Dentro do bloco de inicializacao Funcionario 2");
+    }
+
+    public Funcionario(String nome)
+    {
+        super(nome);
+        System.out.println("Dentro do construtor Funcionario");
     }
     public void imprimi(){
         super.imprimi();//super.imprimi e mesma coisa de sobrecarga de metodo ela importa o objeto mesma
